@@ -95,6 +95,8 @@ set encoding=utf8
 set term=xterm-256color
 set termencoding=utf-8
 set guifont=Source\ Code\ Pro\ for\ Powerline "make sure to escape the spaces in the name properly"
+let NERDTreeIgnore = ['\.pyc$']
+
 
 noremap <F7> gT
 noremap <F8> gt
